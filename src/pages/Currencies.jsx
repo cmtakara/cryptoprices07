@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Currencies() {
     const currencies = [
@@ -19,7 +19,9 @@ function Currencies() {
                 const { name, symbol } = coin;
 
                 return (
+                    <Link to={`/price/${symbol}`}>
                     <h2>{name}</h2>
+                    </Link>
                 )
             })}
         </div>
