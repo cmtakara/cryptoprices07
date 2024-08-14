@@ -10,6 +10,8 @@ import Welcome from './pages/Welcome';
 // You need to have <Routes></Routes> (this is plural and has a beginning and ending tag 
 //    because it wraps all of the routes)
 // <Route /> is singular (no s) and it is self-closing
+//    <Route /> requires both the path, which tells us what is in the url bar
+//    and the element which tells us what we are rendering
 
 function App() {
 
